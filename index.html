@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylized Book Table</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #4a90e2, #9013fe);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+            border-radius: 2%;
+            margin: 0;
+            padding: 20px;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            box-shadow: 0 4px 20px black;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 2%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            border-radius: 2%;
+            text-align: center;
+            padding: 12px;
+            transition: background-color 0.3s, color 0.3s, font-size 0.3s; 
+        }
+        th {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+        td:hover {
+            background-color: rgba(255, 250, 250, 0.4); 
+            color: black; 
+            font-size: 1.2em; 
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center; font-family: fantasy; letter-spacing: 1px;">BOOK TABLE:</h2><hr width="10%" >
+    <table>
+        <tr>
+            <th><b>Title</b></th>
+            <th><b>Author</b></th>
+            <th><b>Publication Year</b></th>
+        </tr>
+        <tr>
+            <td>The Great Gatsby</td>
+            <td>F. Scott Fitzgerald</td>
+            <td>1925</td>
+        </tr>
+        <tr>
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>1949</td>
+        </tr>
+        <tr>
+            <td>To Kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>1960</td>
+        </tr>
+        <tr>
+            <td>The Catcher in the Rye</td>
+            <td>J.D. Salinger</td>
+            <td>1951</td>
+        </tr>
+    </table>
+</body>
+</html>
